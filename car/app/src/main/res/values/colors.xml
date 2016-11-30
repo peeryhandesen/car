@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#536DFE</color>
+    <color name="bg_app">#F1F1F1</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+
+    <color name="windows_color">#F5F5F5</color>
+    <color name="base_line_gray">#e0e6ed</color>
+    <color name="base_text_gray">#8492a6</color>
+
+    <color name="base_bg_white">#ffffff</color>
+
+    <color name="base_bg_blue">#1fb6ff</color>
+    <color name="base_text_black">#444444</color>
+
+    <color name="blue">#0066FF</color>
+    <color name="white">#ffffff</color>
+    <color name="base_blue">#50cbff</color>
+
+    <color name="base_greg">#8492a6</color>
+    <color name="base_title_text_middle">#263444</color>
+    <color name="base_title_text_left">#38adff</color>
+    <color name="greeny">#ff11aca6</color>
+
+    <color name="bg_white">#efeff4</color>
+    <color name="bg_pending_data">#f4f4f4</color>
+    <color name="tv_pending_blue">#1fb6ff</color>
+
+    <color name="gainsboro">#dcdcdc</color><!--淡灰色 -->
+    <color name="black">#444449</color><!--黑色 -->
+    <color name="greey">#263444</color><!--棕色 -->
+    <color name="title_blue">#38adff</color><!--蓝色 -->
+    <color name="title_greey">#8492a6</color><!--灰色 -->
+    <color name="tab_color">#848282</color>
+    <color name="tab_color_s">#0dd21d</color>
+    <color name="send_bt_color">#0cb319</color>
+    <color name="line_color">#beb9b9</color>
+    <color name="decoration_color">#d7cfcf</color>
+    <color name="action_bar_color">#0d0c0c</color>
+    <color name="tiem_bg_color">#f4cac7c7</color>
+    <color name="dot_color">#ff0000</color>
+
+    <color name="custum_tab_color">#8492a6</color>
+    <color name="custom_bottom_no_press">#c1c8d2</color><!--灰色 -->
+    <color name="custom_bottom_press">#1fb6ff</color><!--蓝色 -->
+
+    <drawable name="dark">#b4000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <color name="dkgray">#FF444444</color>
+    <color name="gray">#FF888888</color>
+    <color name="ltgray">#FFCCCCCC</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue_bg">#FF0000FF</color>
+    <color name="yellow">#FFFFFF00</color>
+
+    <color name="black1">#7A7E83</color>
+
+    <color name="receive_materate_red">#ff0000</color>
+    <color name="receive_materate_green">#008000</color>
+
+
+    <color name="bg_setting">#efeff4</color>
+    <color name="tv_setting_atuo">#000000</color>
+    <color name="tv_setting_btn">#8492a5</color>
+
+
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="16px"
+        android:layout_marginLeft="16px"
+        android:background="#ffffff"
+        android:id="@+id/lay_sencond_titles"
+        android:layout_height="120px">
+
+        <TextView
+            android:id="@+id/tv_title_custum"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="我的客户"
+            android:textSize="36px"
+            android:onClick="onCustomTabClicked"
+            android:gravity="center"
+            android:layout_marginTop="1px"
+            android:layout_marginBottom="1px"
+            android:layout_marginLeft="1px"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_waiter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="待接入"
+            android:textSize="36px"
+            android:onClick="onCustomTabClicked"
+            android:layout_margin="1px"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <!--<android.support.design.widget.TabLayout
+            android:id="@+id/customTab"
+            android:layout_width="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:tabIndicatorColor="@android:color/white"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabTextColor="#EF9A9A"
+            app:tabTextAppearance="@style/tab_appearance"
+            android:layout_height="45dp"/>-->
+    <!--<android.support.v4.view.ViewPager
+        android:id="@+id/customViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <me.yokeyword.sample.demo_wechat.ui.view.BottomBar
+        android:id="@+id/customTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottombar_wechat_height"
+        android:layout_gravity="top"/>-->
+    <FrameLayout
+        android:id="@+id/custom_tab_container"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/bottombar_wechat_height"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

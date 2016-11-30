@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_setting"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/base_bg_white"
+        android:id="@+id/chat_title_relayout"
+        android:layout_height="168px">
+        <ImageView
+            android:id="@+id/setting_title_img_back"
+            android:layout_width="132px"
+            android:src="@mipmap/btn_back01"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:layout_height="132px" />
+
+        <TextView
+            android:id="@+id/setting_title_tv_title"
+            android:layout_width="wrap_content"
+            android:textColor="@color/greey"
+            android:textSize="44px"
+            android:text="设置"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/bg_setting"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/base_bg_white"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/setting_title_tv_auto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/tv_setting_atuo"
+            android:text="全部自动回复设置"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/setting_title_img_click"
+            android:layout_width="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/setting_title_tv_auto1"
+            android:visibility="visible"
+            android:src="@mipmap/set_auto_switch"
+            android:gravity="center_vertical|center"/>
+
+        <TextView
+            android:id="@+id/setting_title_tv_auto_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:singleLine="true"
+            android:textColor="@color/tv_setting_btn"
+            android:text="已全部开启"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:gravity="center_vertical"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

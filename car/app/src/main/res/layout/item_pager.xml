@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="56dp"
+              android:orientation="vertical"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp">
+
+    <LinearLayout
+        android:id="@+id/pending_layout"
+        style="@style/MMListItem"
+        android:layout_height="160px"
+        android:background="@color/white"
+        android:paddingLeft="15dip" >
+
+        <ImageView
+            android:id="@+id/pending_avatar_iv"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="6dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.0"
+            android:gravity="center_vertical"
+            android:paddingLeft="8.0dip" >
+
+            <TextView
+                android:id="@+id/pending_nick"
+                style="@style/MMFontTitleInList"
+                android:text="爱文静"
+                android:textSize="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="26px"
+            android:gravity="center_vertical"
+            android:padding="6dp"
+            android:paddingLeft="8.0dip" >
+
+            <TextView
+                android:id="@+id/pending_right_bottom_nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="34px"
+                android:text="49小时后过期"
+                android:textColor="#ff929292"
+                android:layout_alignParentBottom="true"
+             />
+            <TextView
+                android:id="@+id/pending_right_top_nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/pending_right_bottom_nick"
+                android:layout_alignRight="@id/pending_right_bottom_nick"
+                android:textSize="34px"
+                android:layout_marginTop="6dp"
+                android:text="待接入"
+                android:textColor="@color/tv_pending_blue"
+                android:layout_alignParentTop="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/base_line_gray"/>
+</RelativeLayout>
